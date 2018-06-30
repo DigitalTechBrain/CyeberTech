@@ -68,10 +68,74 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CopyFiles.aspx" />
+    <Content Include="Downloader.aspx" />
+    <Content Include="KeyLog.aspx" />
+    <Content Include="Registry.aspx" />
+    <Content Include="Registry2.aspx" />
+    <Content Include="TreeStructure.aspx" />
+    <Content Include="UploadAll.aspx" />
+    <Content Include="uploagphp.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CopyFiles.aspx.cs">
+      <DependentUpon>CopyFiles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CopyFiles.aspx.designer.cs">
+      <DependentUpon>CopyFiles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Downloader.aspx.cs">
+      <DependentUpon>Downloader.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Downloader.aspx.designer.cs">
+      <DependentUpon>Downloader.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KeyLog.aspx.cs">
+      <DependentUpon>KeyLog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KeyLog.aspx.designer.cs">
+      <DependentUpon>KeyLog.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registry.aspx.cs">
+      <DependentUpon>Registry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registry.aspx.designer.cs">
+      <DependentUpon>Registry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Registry2.aspx.cs">
+      <DependentUpon>Registry2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registry2.aspx.designer.cs">
+      <DependentUpon>Registry2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TreeStructure.aspx.cs">
+      <DependentUpon>TreeStructure.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TreeStructure.aspx.designer.cs">
+      <DependentUpon>TreeStructure.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UploadAll.aspx.cs">
+      <DependentUpon>UploadAll.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UploadAll.aspx.designer.cs">
+      <DependentUpon>UploadAll.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uploagphp.aspx.cs">
+      <DependentUpon>uploagphp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uploagphp.aspx.designer.cs">
+      <DependentUpon>uploagphp.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
